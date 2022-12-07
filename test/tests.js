@@ -2,8 +2,8 @@ const {expect} = require('chai')
 const request = require('supertest')
 const {getByText, getByLabelText} = require('@testing-library/dom')
 const {JSDOM} = require('jsdom')
-const app = require('../unsolved/app')
-const db = require('../unsolved/db')
+const app = require('../app')
+const db = require('../db')
 const fs = require('fs/promises')
 
 const cart = {

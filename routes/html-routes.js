@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const db = require('../unsolved/db')
+const db = require('../db')
 const path = require('path')
 
 router.get('/', async (req, res) => {
